@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="icon" type="image/png" href="../assets/logo_n.png">
+    <link rel="stylesheet" href="catalogo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="navbar-left">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                alt="Netflix">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="https://www.alura.com.br/" class="active">Início</a></li>
+                    <li><a href="https://www.alura.com.br/">Séries</a></li>
+                    <li><a href="https://www.alura.com.br/">Filmes</a></li>
+                    <li><a href="https://www.alura.com.br/">Jogos</a></li>
+                    <li><a href="https://www.alura.com.br/">Bombando</a></li>
+                    <li><a href="https://www.alura.com.br/">Minha lista</a></li>
+                    <li><a href="https://www.alura.com.br/">Melhores da Alura</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="navbar-right">
+            <i class="fas fa-search icon"></i>
+            <span class="kids-link">Seu nome</span>
+            <div class="nav-notification">
+                <i class="fas fa-bell icon"></i>
+                <span class="notification-badge">42</span>
+            </div>
+            <div class="profile-menu" style="position: relative; display: inline-block; cursor: pointer;">
+                <img class="profile-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Profile">
+                <i class="fas fa-caret-down icon" style="font-size: 14px; margin-left: 5px;"></i>
+                <div class="profile-dropdown" style="display: none; position: absolute; right: 0; background: #181818; border: 1px solid #333; border-radius: 6px; min-width: 180px; z-index: 100; box-shadow: 0 2px 8px #000a;">
+                    <div class="profile-option" data-nome="Alexandre" data-img="../assets/01.png" style="display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                        <img src="../assets/01.png" alt="Alexandre" style="width: 32px; height: 32px; border-radius: 4px; margin-right: 10px;">
+                        <span>Alexandre</span>
+                    </div>
+                    <div class="profile-option" data-nome="Geovanna" data-img="../assets/02.png" style="display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                        <img src="../assets/02.png" alt="Geovanna" style="width: 32px; height: 32px; border-radius: 4px; margin-right: 10px;">
+                        <span>Geovanna</span>
+                    </div>
+                    <div class="profile-option" data-nome="Victor" data-img="../assets/03.png" style="display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                        <img src="../assets/03.png" alt="Victor" style="width: 32px; height: 32px; border-radius: 4px; margin-right: 10px;">
+                        <span>Victor</span>
+                    </div>
+                    <div class="profile-option" data-nome="Celio" data-img="../assets/04.png" style="display: flex; align-items: center; padding: 10px; cursor: pointer;">
+                        <img src="../assets/04.png" alt="Celio" style="width: 32px; height: 32px; border-radius: 4px; margin-right: 10px;">
+                        <span>Celio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="featured-hero" aria-label="Destaque principal">
+        <div class="featured-hero-content">
+            <p class="featured-brand">NETFLIX</p>
+            <h1>Destaque de Hoje</h1>
+            <p class="featured-description">
+                Assista agora ao conteúdo em destaque e aproveite a melhor experiencia cinematografica.
+            </p>
+            <div class="featured-actions">
+                <button type="button" class="featured-btn featured-btn-play"><i class="fas fa-play"></i> Assistir</button>
+                <button type="button" class="featured-btn featured-btn-info"><i class="fas fa-info-circle"></i> Mais informacoes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sliders Container -->
+    <main class="sliders-container" id="main-content">
+        <!-- Javascript will inject the rows here -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.alura.com.br/" target="_blank">
+                <p>Imersão Alura AI</p>
+            </a>
+            <ul class="footer-links">
+                <li><a href="https://www.alura.com.br/" target="_blank">Perguntas frequentes</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Centro de ajuda</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Conta</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Imprensa</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Relações com investidores</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Carreiras</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Formas de assistir</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Termos de uso</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Privacidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Preferências de cookies</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Informações corporativas</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Entre em contato</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Teste de velocidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Avisos legais</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Só na Netflix</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

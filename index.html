@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" type="image/png" href="assets/logo_n.png">
+    <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="assets/transition-video.css">
+</head>
+<body class="dark">
+    <header>
+        <img src="assets/logo.png" alt="Netflix Logo" class="logo">
+        <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </header>
+    <main>
+        <h1>Quem está assistindo?</h1>
+        <div class="profiles">
+            <a class="profile" href="catalogo/catalogo.html?user=Carlos">
+                <img src="assets/01.png" alt="Perfil 1">
+                <span>Alexandre</span>
+            </a>
+            <a class="profile" href="catalogo/catalogo.html?user=Maria">
+                <img src="assets/02.png" alt="Perfil 2">
+                <span>Geovanna</span>
+            </a>
+            <a class="profile" href="catalogo/catalogo.html?user=Joao">
+                <img src="assets/03.png" alt="Perfil 3">
+                <span>Victor</span>
+            </a>
+            <a class="profile" href="catalogo/catalogo.html?user=Pedro">
+                <img src="assets/04.png" alt="Perfil 4">
+                <span>Celio</span>
+            </a>
+        </div>
+    </main>
+        <!-- Container do vídeo de transição (inicialmente oculto) -->
+        <div id="transition-video-container" style="display:none">
+            <button id="skip-intro-btn">Pular introdução</button>
+            <video id="transition-video" src="assets/intro.mp4" preload="auto" playsinline></video>
+        </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
